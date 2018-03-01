@@ -1,0 +1,915 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CppPrimer5thCode\1\Sales_item.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CppPrimer5thCode\12\Foo.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CppPrimer5thCode\12\QueryResult.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CppPrimer5thCode\12\StrBlob.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CppPrimer5thCode\12\TextQuery.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CppPrimer5thCode\13\Folder.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CppPrimer5thCode\13\small_SI.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CppPrimer5thCode\13\StrFolder.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CppPrimer5thCode\13\String.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CppPrimer5thCode\13\StrVec.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CppPrimer5thCode\14\Sales_data.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CppPrimer5thCode\15\Basket.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CppPrimer5thCode\15\Query.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CppPrimer5thCode\15\Quote.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CppPrimer5thCode\16\Blob.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CppPrimer5thCode\16\compare.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CppPrimer5thCode\16\DebugDelete.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CppPrimer5thCode\16\debug_rep.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CppPrimer5thCode\16\Sales_data.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CppPrimer5thCode\16\Vec.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CppPrimer5thCode\18\Animal.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CppPrimer5thCode\18\Animal_virtual_baseVers.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CppPrimer5thCode\18\bookexcept.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CppPrimer5thCode\19\ADVScreen.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CppPrimer5thCode\19\Screen.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CppPrimer5thCode\19\TextQuery.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CppPrimer5thCode\19\Token.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CppPrimer5thCode\2\Sales_data.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CppPrimer5thCode\6\LocalMath.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CppPrimer5thCode\6\make_plural.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CppPrimer5thCode\6\printFcns.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CppPrimer5thCode\7\Account.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CppPrimer5thCode\7\Debug.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CppPrimer5thCode\7\Sales_data.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CppPrimer5thCode\7\Screen.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CppPrimer5thCode\7\WindowMgr.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CppPrimer5thCode\Version_test.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimerSource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\1\add.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\1\add_item.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\1\add_item2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\1\avg_price.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\1\forcount.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\1\for_ex.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\1\item_io.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\1\main_only.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\1\mysum.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\1\occurs.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\1\whilecount.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\10\absInt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\10\accum.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\10\accum4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\10\avg_price.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\10\bind2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\10\elimDups.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\10\equal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\10\equiv-istream-iter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\10\inserters.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\10\iostream_iter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\10\lambda.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\10\newcount-size.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\10\ostreamIter2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\10\rcomma.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\10\rev-iters.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\10\reverse-iter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\10\reverse.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\10\sortSI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\10\use-istream-iter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\10\use_find.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\11\erasemap.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\11\map1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\11\multimap.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\11\pair.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\11\restricted_count.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\11\setOps.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\11\unorderedWordCount.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\11\wcEx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\11\word_count.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\11\word_transform.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\12\allocPtr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\12\allocSP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\12\oknew.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\12\querymain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\12\release.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\12\TextQuery.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\12\unique.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\12\UP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\12\usealloc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\12\usealloc2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\12\useBlob.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\12\weak.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\13\copyNoMove.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\13\Folder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\13\FolderMain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\13\HasPtrUseCount.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\13\HasPtrValueLike.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\13\moveHP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\13\serial.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\13\StrFolder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\13\StrFolderMain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\13\String.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\13\StrVec.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\13\substr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\13\useStrVec.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\14\absInt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\14\add.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\14\calc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\14\directcall.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\14\fcnobj.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\14\newcount-size.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\14\readStr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\14\Sales_data.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\15\andQueryTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\15\and_orQueryTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\15\Basket.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\15\Basket_main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\15\get_print.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\15\Query.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\15\Quote.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\15\sample.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\15\scope.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\15\useQuote.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\15\vecBasket.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\15\virtualsNscope.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\15\wordQueryTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\16\array-parms4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\16\Array.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\16\build.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\16\compare.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\16\compareDef.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\16\compareSpec.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\16\debug.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\16\expansion.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\16\flip.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\16\multiset.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\16\overSpec.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\16\qm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\16\Sales_data.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\16\SP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\16\special.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\16\trail-ret.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\16\typealias.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\16\useBlob.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\16\useChcking.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\16\variadic.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\16\variadic3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\16\Vecmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\17\badgetc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\17\bits.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\17\ccpgms.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\17\findbook.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\17\game.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\17\getc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\17\getput.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\17\manips.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\17\manips11.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\17\no-skipws.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\17\normalInts.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\17\phones.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\17\phonesFinal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\17\point.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\17\prec.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\17\rand1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\17\rand2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\17\rand4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\17\rand6.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\17\REerrs.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\17\regex1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\17\sci_dec.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\17\seed.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\17\seek.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\17\setw.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\17\skipws.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\17\subexpr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\17\tuple.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\17\validatePhones.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\17\zips.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\18\Animal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\18\book.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\18\class.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\18\ex-over.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\18\inherit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\18\mi-scope.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\18\over.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\18\over2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\18\Sales_data.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\18\spec.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\18\usingDirective.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\18\virt-inherit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\19\bitfields.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\19\calc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\19\dyn_cast.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\19\enum-match.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\19\enum.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\19\memFN-bind.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\19\Screen.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\19\tok2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\19\typeid.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\19\useScreen.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\2\compounddecls.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\2\convs.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\2\dbl_ptr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\2\decl-ex.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\2\escape.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\2\inits.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\2\literals.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\2\ref-ex.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\2\Sales_data.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\2\scope_levels.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\2\unsigned.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\3\add_using.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\3\arrayScores.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\3\cctype.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\3\char_repl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\3\cstring_hdr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\3\getline.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\3\hexify.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\3\multidim.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\3\ptr_traversal2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\3\square.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\3\strcompare.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\3\string_add.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\3\string_io.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\3\string_io2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\3\string_size.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\3\string_size2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\3\string_size3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\3\vecScores.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\3\vecStrings2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\3\vecSubs.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\3\vec_decls.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\3\word_echo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\4\arith-ex.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\4\arraysizeof.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\4\cond.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\4\incr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\4\int-div.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\4\oofe.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\4\overflow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\4\prec.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\4\shift-prec.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\4\sizeof_pgm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\4\unaryOps.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\4\vec_init.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\4\warn_dbltoint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\5\add_item2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\5\doWhile.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\5\guess.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\5\ifgrades.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\5\othercnt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\5\rangefor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\5\vowels.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\6\arrRet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\6\count-calls.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\6\errMsg_initList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\6\fact.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\6\fcnptrRet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\6\good_printmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\6\inline_shorter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\6\LocalMath.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\6\mainmath.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\6\mainret.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\6\mk_plural.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\6\ref-fcn.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\6\refparms.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\6\refret-ex.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\6\reset.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\6\stl-arr-fcns.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\6\usefcnptr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\6\use_mk_plural.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\6\wdebug.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\7\Account.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\7\add_item.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\7\avg_price.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\7\Debug.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\7\Sales_data.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\7\useAccount.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\7\useDebug.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\7\useScreen.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\8\add_item.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\8\add_itemV2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\8\buf.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\8\clearIO.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\8\fileIO.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\8\sstream.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\9\capacity.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\9\erase1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\9\erase2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\9\find-str.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\9\find_ops.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\9\refreshIter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\9\stack.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\9\str_assignOps.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\9\substr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CppPrimer5thCode\9\useConvs.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

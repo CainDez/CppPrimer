@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{E4871415-A746-4335-AFA4-B8D10606C96E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>CppPrimerSource</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="CppPrimer5thCode\12\Foo.h" />
+    <ClInclude Include="CppPrimer5thCode\12\QueryResult.h" />
+    <ClInclude Include="CppPrimer5thCode\12\StrBlob.h" />
+    <ClInclude Include="CppPrimer5thCode\12\TextQuery.h" />
+    <ClInclude Include="CppPrimer5thCode\13\Folder.h" />
+    <ClInclude Include="CppPrimer5thCode\13\small_SI.h" />
+    <ClInclude Include="CppPrimer5thCode\13\StrFolder.h" />
+    <ClInclude Include="CppPrimer5thCode\13\String.h" />
+    <ClInclude Include="CppPrimer5thCode\13\StrVec.h" />
+    <ClInclude Include="CppPrimer5thCode\14\Sales_data.h" />
+    <ClInclude Include="CppPrimer5thCode\15\Basket.h" />
+    <ClInclude Include="CppPrimer5thCode\15\Query.h" />
+    <ClInclude Include="CppPrimer5thCode\15\Quote.h" />
+    <ClInclude Include="CppPrimer5thCode\16\Blob.h" />
+    <ClInclude Include="CppPrimer5thCode\16\compare.h" />
+    <ClInclude Include="CppPrimer5thCode\16\DebugDelete.h" />
+    <ClInclude Include="CppPrimer5thCode\16\debug_rep.h" />
+    <ClInclude Include="CppPrimer5thCode\16\Sales_data.h" />
+    <ClInclude Include="CppPrimer5thCode\16\Vec.h" />
+    <ClInclude Include="CppPrimer5thCode\18\Animal.h" />
+    <ClInclude Include="CppPrimer5thCode\18\Animal_virtual_baseVers.h" />
+    <ClInclude Include="CppPrimer5thCode\18\bookexcept.h" />
+    <ClInclude Include="CppPrimer5thCode\19\ADVScreen.h" />
+    <ClInclude Include="CppPrimer5thCode\19\Screen.h" />
+    <ClInclude Include="CppPrimer5thCode\19\TextQuery.h" />
+    <ClInclude Include="CppPrimer5thCode\19\Token.h" />
+    <ClInclude Include="CppPrimer5thCode\1\Sales_item.h" />
+    <ClInclude Include="CppPrimer5thCode\2\Sales_data.h" />
+    <ClInclude Include="CppPrimer5thCode\6\LocalMath.h" />
+    <ClInclude Include="CppPrimer5thCode\6\make_plural.h" />
+    <ClInclude Include="CppPrimer5thCode\6\printFcns.h" />
+    <ClInclude Include="CppPrimer5thCode\7\Account.h" />
+    <ClInclude Include="CppPrimer5thCode\7\Debug.h" />
+    <ClInclude Include="CppPrimer5thCode\7\Sales_data.h" />
+    <ClInclude Include="CppPrimer5thCode\7\Screen.h" />
+    <ClInclude Include="CppPrimer5thCode\7\WindowMgr.h" />
+    <ClInclude Include="CppPrimer5thCode\Version_test.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CppPrimer5thCode\10\absInt.cpp" />
+    <ClCompile Include="CppPrimer5thCode\10\accum.cpp" />
+    <ClCompile Include="CppPrimer5thCode\10\accum4.cpp" />
+    <ClCompile Include="CppPrimer5thCode\10\avg_price.cpp" />
+    <ClCompile Include="CppPrimer5thCode\10\bind2.cpp" />
+    <ClCompile Include="CppPrimer5thCode\10\elimDups.cpp" />
+    <ClCompile Include="CppPrimer5thCode\10\equal.cpp" />
+    <ClCompile Include="CppPrimer5thCode\10\equiv-istream-iter.cpp" />
+    <ClCompile Include="CppPrimer5thCode\10\inserters.cpp" />
+    <ClCompile Include="CppPrimer5thCode\10\iostream_iter.cpp" />
+    <ClCompile Include="CppPrimer5thCode\10\lambda.cpp" />
+    <ClCompile Include="CppPrimer5thCode\10\newcount-size.cpp" />
+    <ClCompile Include="CppPrimer5thCode\10\ostreamIter2.cpp" />
+    <ClCompile Include="CppPrimer5thCode\10\rcomma.cpp" />
+    <ClCompile Include="CppPrimer5thCode\10\rev-iters.cpp" />
+    <ClCompile Include="CppPrimer5thCode\10\reverse-iter.cpp" />
+    <ClCompile Include="CppPrimer5thCode\10\reverse.cpp" />
+    <ClCompile Include="CppPrimer5thCode\10\sortSI.cpp" />
+    <ClCompile Include="CppPrimer5thCode\10\use-istream-iter.cpp" />
+    <ClCompile Include="CppPrimer5thCode\10\use_find.cpp" />
+    <ClCompile Include="CppPrimer5thCode\11\erasemap.cpp" />
+    <ClCompile Include="CppPrimer5thCode\11\map1.cpp" />
+    <ClCompile Include="CppPrimer5thCode\11\multimap.cpp" />
+    <ClCompile Include="CppPrimer5thCode\11\pair.cpp" />
+    <ClCompile Include="CppPrimer5thCode\11\restricted_count.cpp" />
+    <ClCompile Include="CppPrimer5thCode\11\setOps.cpp" />
+    <ClCompile Include="CppPrimer5thCode\11\unorderedWordCount.cpp" />
+    <ClCompile Include="CppPrimer5thCode\11\wcEx.cpp" />
+    <ClCompile Include="CppPrimer5thCode\11\word_count.cpp" />
+    <ClCompile Include="CppPrimer5thCode\11\word_transform.cpp" />
+    <ClCompile Include="CppPrimer5thCode\12\allocPtr.cpp" />
+    <ClCompile Include="CppPrimer5thCode\12\allocSP.cpp" />
+    <ClCompile Include="CppPrimer5thCode\12\oknew.cpp" />
+    <ClCompile Include="CppPrimer5thCode\12\querymain.cpp" />
+    <ClCompile Include="CppPrimer5thCode\12\release.cpp" />
+    <ClCompile Include="CppPrimer5thCode\12\TextQuery.cpp" />
+    <ClCompile Include="CppPrimer5thCode\12\unique.cpp" />
+    <ClCompile Include="CppPrimer5thCode\12\UP.cpp" />
+    <ClCompile Include="CppPrimer5thCode\12\usealloc.cpp" />
+    <ClCompile Include="CppPrimer5thCode\12\usealloc2.cpp" />
+    <ClCompile Include="CppPrimer5thCode\12\useBlob.cpp" />
+    <ClCompile Include="CppPrimer5thCode\12\weak.cpp" />
+    <ClCompile Include="CppPrimer5thCode\13\copyNoMove.cpp" />
+    <ClCompile Include="CppPrimer5thCode\13\Folder.cpp" />
+    <ClCompile Include="CppPrimer5thCode\13\FolderMain.cpp" />
+    <ClCompile Include="CppPrimer5thCode\13\HasPtrUseCount.cpp" />
+    <ClCompile Include="CppPrimer5thCode\13\HasPtrValueLike.cpp" />
+    <ClCompile Include="CppPrimer5thCode\13\moveHP.cpp" />
+    <ClCompile Include="CppPrimer5thCode\13\serial.cpp" />
+    <ClCompile Include="CppPrimer5thCode\13\StrFolder.cpp" />
+    <ClCompile Include="CppPrimer5thCode\13\StrFolderMain.cpp" />
+    <ClCompile Include="CppPrimer5thCode\13\String.cpp" />
+    <ClCompile Include="CppPrimer5thCode\13\StrVec.cpp" />
+    <ClCompile Include="CppPrimer5thCode\13\substr.cpp" />
+    <ClCompile Include="CppPrimer5thCode\13\useStrVec.cpp" />
+    <ClCompile Include="CppPrimer5thCode\14\absInt.cpp" />
+    <ClCompile Include="CppPrimer5thCode\14\add.cpp" />
+    <ClCompile Include="CppPrimer5thCode\14\calc.cpp" />
+    <ClCompile Include="CppPrimer5thCode\14\directcall.cpp" />
+    <ClCompile Include="CppPrimer5thCode\14\fcnobj.cpp" />
+    <ClCompile Include="CppPrimer5thCode\14\newcount-size.cpp" />
+    <ClCompile Include="CppPrimer5thCode\14\readStr.cpp" />
+    <ClCompile Include="CppPrimer5thCode\14\Sales_data.cpp" />
+    <ClCompile Include="CppPrimer5thCode\15\andQueryTest.cpp" />
+    <ClCompile Include="CppPrimer5thCode\15\and_orQueryTest.cpp" />
+    <ClCompile Include="CppPrimer5thCode\15\Basket.cpp" />
+    <ClCompile Include="CppPrimer5thCode\15\Basket_main.cpp" />
+    <ClCompile Include="CppPrimer5thCode\15\get_print.cpp" />
+    <ClCompile Include="CppPrimer5thCode\15\Query.cpp" />
+    <ClCompile Include="CppPrimer5thCode\15\Quote.cpp" />
+    <ClCompile Include="CppPrimer5thCode\15\sample.cpp" />
+    <ClCompile Include="CppPrimer5thCode\15\scope.cpp" />
+    <ClCompile Include="CppPrimer5thCode\15\useQuote.cpp" />
+    <ClCompile Include="CppPrimer5thCode\15\vecBasket.cpp" />
+    <ClCompile Include="CppPrimer5thCode\15\virtualsNscope.cpp" />
+    <ClCompile Include="CppPrimer5thCode\15\wordQueryTest.cpp" />
+    <ClCompile Include="CppPrimer5thCode\16\array-parms4.cpp" />
+    <ClCompile Include="CppPrimer5thCode\16\Array.cpp" />
+    <ClCompile Include="CppPrimer5thCode\16\build.cpp" />
+    <ClCompile Include="CppPrimer5thCode\16\compare.cpp" />
+    <ClCompile Include="CppPrimer5thCode\16\compareDef.cpp" />
+    <ClCompile Include="CppPrimer5thCode\16\compareSpec.cpp" />
+    <ClCompile Include="CppPrimer5thCode\16\debug.cpp" />
+    <ClCompile Include="CppPrimer5thCode\16\expansion.cpp" />
+    <ClCompile Include="CppPrimer5thCode\16\flip.cpp" />
+    <ClCompile Include="CppPrimer5thCode\16\multiset.cpp" />
+    <ClCompile Include="CppPrimer5thCode\16\overSpec.cpp" />
+    <ClCompile Include="CppPrimer5thCode\16\qm.cpp" />
+    <ClCompile Include="CppPrimer5thCode\16\Sales_data.cpp" />
+    <ClCompile Include="CppPrimer5thCode\16\SP.cpp" />
+    <ClCompile Include="CppPrimer5thCode\16\special.cpp" />
+    <ClCompile Include="CppPrimer5thCode\16\trail-ret.cpp" />
+    <ClCompile Include="CppPrimer5thCode\16\typealias.cpp" />
+    <ClCompile Include="CppPrimer5thCode\16\useBlob.cpp" />
+    <ClCompile Include="CppPrimer5thCode\16\useChcking.cpp" />
+    <ClCompile Include="CppPrimer5thCode\16\variadic.cpp" />
+    <ClCompile Include="CppPrimer5thCode\16\variadic3.cpp" />
+    <ClCompile Include="CppPrimer5thCode\16\Vecmain.cpp" />
+    <ClCompile Include="CppPrimer5thCode\17\badgetc.cpp" />
+    <ClCompile Include="CppPrimer5thCode\17\bits.cpp" />
+    <ClCompile Include="CppPrimer5thCode\17\ccpgms.cpp" />
+    <ClCompile Include="CppPrimer5thCode\17\findbook.cpp" />
+    <ClCompile Include="CppPrimer5thCode\17\game.cpp" />
+    <ClCompile Include="CppPrimer5thCode\17\getc.cpp" />
+    <ClCompile Include="CppPrimer5thCode\17\getput.cpp" />
+    <ClCompile Include="CppPrimer5thCode\17\manips.cpp" />
+    <ClCompile Include="CppPrimer5thCode\17\manips11.cpp" />
+    <ClCompile Include="CppPrimer5thCode\17\no-skipws.cpp" />
+    <ClCompile Include="CppPrimer5thCode\17\normalInts.cpp" />
+    <ClCompile Include="CppPrimer5thCode\17\phones.cpp" />
+    <ClCompile Include="CppPrimer5thCode\17\phonesFinal.cpp" />
+    <ClCompile Include="CppPrimer5thCode\17\point.cpp" />
+    <ClCompile Include="CppPrimer5thCode\17\prec.cpp" />
+    <ClCompile Include="CppPrimer5thCode\17\rand1.cpp" />
+    <ClCompile Include="CppPrimer5thCode\17\rand2.cpp" />
+    <ClCompile Include="CppPrimer5thCode\17\rand4.cpp" />
+    <ClCompile Include="CppPrimer5thCode\17\rand6.cpp" />
+    <ClCompile Include="CppPrimer5thCode\17\REerrs.cpp" />
+    <ClCompile Include="CppPrimer5thCode\17\regex1.cpp" />
+    <ClCompile Include="CppPrimer5thCode\17\sci_dec.cpp" />
+    <ClCompile Include="CppPrimer5thCode\17\seed.cpp" />
+    <ClCompile Include="CppPrimer5thCode\17\seek.cpp" />
+    <ClCompile Include="CppPrimer5thCode\17\setw.cpp" />
+    <ClCompile Include="CppPrimer5thCode\17\skipws.cpp" />
+    <ClCompile Include="CppPrimer5thCode\17\subexpr.cpp" />
+    <ClCompile Include="CppPrimer5thCode\17\tuple.cpp" />
+    <ClCompile Include="CppPrimer5thCode\17\validatePhones.cpp" />
+    <ClCompile Include="CppPrimer5thCode\17\zips.cpp" />
+    <ClCompile Include="CppPrimer5thCode\18\Animal.cpp" />
+    <ClCompile Include="CppPrimer5thCode\18\book.cpp" />
+    <ClCompile Include="CppPrimer5thCode\18\class.cpp" />
+    <ClCompile Include="CppPrimer5thCode\18\ex-over.cpp" />
+    <ClCompile Include="CppPrimer5thCode\18\inherit.cpp" />
+    <ClCompile Include="CppPrimer5thCode\18\mi-scope.cpp" />
+    <ClCompile Include="CppPrimer5thCode\18\over.cpp" />
+    <ClCompile Include="CppPrimer5thCode\18\over2.cpp" />
+    <ClCompile Include="CppPrimer5thCode\18\Sales_data.cpp" />
+    <ClCompile Include="CppPrimer5thCode\18\spec.cpp" />
+    <ClCompile Include="CppPrimer5thCode\18\usingDirective.cpp" />
+    <ClCompile Include="CppPrimer5thCode\18\virt-inherit.cpp" />
+    <ClCompile Include="CppPrimer5thCode\19\bitfields.cpp" />
+    <ClCompile Include="CppPrimer5thCode\19\calc.cpp" />
+    <ClCompile Include="CppPrimer5thCode\19\dyn_cast.cpp" />
+    <ClCompile Include="CppPrimer5thCode\19\enum-match.cpp" />
+    <ClCompile Include="CppPrimer5thCode\19\enum.cpp" />
+    <ClCompile Include="CppPrimer5thCode\19\memFN-bind.cpp" />
+    <ClCompile Include="CppPrimer5thCode\19\Screen.cpp" />
+    <ClCompile Include="CppPrimer5thCode\19\tok2.cpp" />
+    <ClCompile Include="CppPrimer5thCode\19\typeid.cpp" />
+    <ClCompile Include="CppPrimer5thCode\19\useScreen.cpp" />
+    <ClCompile Include="CppPrimer5thCode\1\add.cpp" />
+    <ClCompile Include="CppPrimer5thCode\1\add_item.cpp" />
+    <ClCompile Include="CppPrimer5thCode\1\add_item2.cpp" />
+    <ClCompile Include="CppPrimer5thCode\1\avg_price.cpp" />
+    <ClCompile Include="CppPrimer5thCode\1\forcount.cpp" />
+    <ClCompile Include="CppPrimer5thCode\1\for_ex.cpp" />
+    <ClCompile Include="CppPrimer5thCode\1\item_io.cpp" />
+    <ClCompile Include="CppPrimer5thCode\1\main_only.cpp" />
+    <ClCompile Include="CppPrimer5thCode\1\mysum.cpp" />
+    <ClCompile Include="CppPrimer5thCode\1\occurs.cpp" />
+    <ClCompile Include="CppPrimer5thCode\1\whilecount.cpp" />
+    <ClCompile Include="CppPrimer5thCode\2\compounddecls.cpp" />
+    <ClCompile Include="CppPrimer5thCode\2\convs.cpp" />
+    <ClCompile Include="CppPrimer5thCode\2\dbl_ptr.cpp" />
+    <ClCompile Include="CppPrimer5thCode\2\decl-ex.cpp" />
+    <ClCompile Include="CppPrimer5thCode\2\escape.cpp" />
+    <ClCompile Include="CppPrimer5thCode\2\inits.cpp" />
+    <ClCompile Include="CppPrimer5thCode\2\literals.cpp" />
+    <ClCompile Include="CppPrimer5thCode\2\ref-ex.cpp" />
+    <ClCompile Include="CppPrimer5thCode\2\Sales_data.cpp" />
+    <ClCompile Include="CppPrimer5thCode\2\scope_levels.cpp" />
+    <ClCompile Include="CppPrimer5thCode\2\unsigned.cpp" />
+    <ClCompile Include="CppPrimer5thCode\3\add_using.cpp" />
+    <ClCompile Include="CppPrimer5thCode\3\arrayScores.cpp" />
+    <ClCompile Include="CppPrimer5thCode\3\cctype.cpp" />
+    <ClCompile Include="CppPrimer5thCode\3\char_repl.cpp" />
+    <ClCompile Include="CppPrimer5thCode\3\cstring_hdr.cpp" />
+    <ClCompile Include="CppPrimer5thCode\3\getline.cpp" />
+    <ClCompile Include="CppPrimer5thCode\3\hexify.cpp" />
+    <ClCompile Include="CppPrimer5thCode\3\multidim.cpp" />
+    <ClCompile Include="CppPrimer5thCode\3\ptr_traversal2.cpp" />
+    <ClCompile Include="CppPrimer5thCode\3\square.cpp" />
+    <ClCompile Include="CppPrimer5thCode\3\strcompare.cpp" />
+    <ClCompile Include="CppPrimer5thCode\3\string_add.cpp" />
+    <ClCompile Include="CppPrimer5thCode\3\string_io.cpp" />
+    <ClCompile Include="CppPrimer5thCode\3\string_io2.cpp" />
+    <ClCompile Include="CppPrimer5thCode\3\string_size.cpp" />
+    <ClCompile Include="CppPrimer5thCode\3\string_size2.cpp" />
+    <ClCompile Include="CppPrimer5thCode\3\string_size3.cpp" />
+    <ClCompile Include="CppPrimer5thCode\3\vecScores.cpp" />
+    <ClCompile Include="CppPrimer5thCode\3\vecStrings2.cpp" />
+    <ClCompile Include="CppPrimer5thCode\3\vecSubs.cpp" />
+    <ClCompile Include="CppPrimer5thCode\3\vec_decls.cpp" />
+    <ClCompile Include="CppPrimer5thCode\3\word_echo.cpp" />
+    <ClCompile Include="CppPrimer5thCode\4\arith-ex.cpp" />
+    <ClCompile Include="CppPrimer5thCode\4\arraysizeof.cpp" />
+    <ClCompile Include="CppPrimer5thCode\4\cond.cpp" />
+    <ClCompile Include="CppPrimer5thCode\4\incr.cpp" />
+    <ClCompile Include="CppPrimer5thCode\4\int-div.cpp" />
+    <ClCompile Include="CppPrimer5thCode\4\oofe.cpp" />
+    <ClCompile Include="CppPrimer5thCode\4\overflow.cpp" />
+    <ClCompile Include="CppPrimer5thCode\4\prec.cpp" />
+    <ClCompile Include="CppPrimer5thCode\4\shift-prec.cpp" />
+    <ClCompile Include="CppPrimer5thCode\4\sizeof_pgm.cpp" />
+    <ClCompile Include="CppPrimer5thCode\4\unaryOps.cpp" />
+    <ClCompile Include="CppPrimer5thCode\4\vec_init.cpp" />
+    <ClCompile Include="CppPrimer5thCode\4\warn_dbltoint.cpp" />
+    <ClCompile Include="CppPrimer5thCode\5\add_item2.cpp" />
+    <ClCompile Include="CppPrimer5thCode\5\doWhile.cpp" />
+    <ClCompile Include="CppPrimer5thCode\5\guess.cpp" />
+    <ClCompile Include="CppPrimer5thCode\5\ifgrades.cpp" />
+    <ClCompile Include="CppPrimer5thCode\5\othercnt.cpp" />
+    <ClCompile Include="CppPrimer5thCode\5\rangefor.cpp" />
+    <ClCompile Include="CppPrimer5thCode\5\vowels.cpp" />
+    <ClCompile Include="CppPrimer5thCode\6\arrRet.cpp" />
+    <ClCompile Include="CppPrimer5thCode\6\count-calls.cpp" />
+    <ClCompile Include="CppPrimer5thCode\6\errMsg_initList.cpp" />
+    <ClCompile Include="CppPrimer5thCode\6\fact.cpp" />
+    <ClCompile Include="CppPrimer5thCode\6\fcnptrRet.cpp" />
+    <ClCompile Include="CppPrimer5thCode\6\good_printmain.cpp" />
+    <ClCompile Include="CppPrimer5thCode\6\inline_shorter.cpp" />
+    <ClCompile Include="CppPrimer5thCode\6\LocalMath.cpp" />
+    <ClCompile Include="CppPrimer5thCode\6\mainmath.cpp" />
+    <ClCompile Include="CppPrimer5thCode\6\mainret.cpp" />
+    <ClCompile Include="CppPrimer5thCode\6\mk_plural.cpp" />
+    <ClCompile Include="CppPrimer5thCode\6\ref-fcn.cpp" />
+    <ClCompile Include="CppPrimer5thCode\6\refparms.cpp" />
+    <ClCompile Include="CppPrimer5thCode\6\refret-ex.cpp" />
+    <ClCompile Include="CppPrimer5thCode\6\reset.cpp" />
+    <ClCompile Include="CppPrimer5thCode\6\stl-arr-fcns.cpp" />
+    <ClCompile Include="CppPrimer5thCode\6\usefcnptr.cpp" />
+    <ClCompile Include="CppPrimer5thCode\6\use_mk_plural.cpp" />
+    <ClCompile Include="CppPrimer5thCode\6\wdebug.cpp" />
+    <ClCompile Include="CppPrimer5thCode\7\Account.cpp" />
+    <ClCompile Include="CppPrimer5thCode\7\add_item.cpp" />
+    <ClCompile Include="CppPrimer5thCode\7\avg_price.cpp" />
+    <ClCompile Include="CppPrimer5thCode\7\Debug.cpp" />
+    <ClCompile Include="CppPrimer5thCode\7\Sales_data.cpp" />
+    <ClCompile Include="CppPrimer5thCode\7\useAccount.cpp" />
+    <ClCompile Include="CppPrimer5thCode\7\useDebug.cpp" />
+    <ClCompile Include="CppPrimer5thCode\7\useScreen.cpp" />
+    <ClCompile Include="CppPrimer5thCode\8\add_item.cpp" />
+    <ClCompile Include="CppPrimer5thCode\8\add_itemV2.cpp" />
+    <ClCompile Include="CppPrimer5thCode\8\buf.cpp" />
+    <ClCompile Include="CppPrimer5thCode\8\clearIO.cpp" />
+    <ClCompile Include="CppPrimer5thCode\8\fileIO.cpp" />
+    <ClCompile Include="CppPrimer5thCode\8\sstream.cpp" />
+    <ClCompile Include="CppPrimer5thCode\9\capacity.cpp" />
+    <ClCompile Include="CppPrimer5thCode\9\erase1.cpp" />
+    <ClCompile Include="CppPrimer5thCode\9\erase2.cpp" />
+    <ClCompile Include="CppPrimer5thCode\9\find-str.cpp" />
+    <ClCompile Include="CppPrimer5thCode\9\find_ops.cpp" />
+    <ClCompile Include="CppPrimer5thCode\9\refreshIter.cpp" />
+    <ClCompile Include="CppPrimer5thCode\9\stack.cpp" />
+    <ClCompile Include="CppPrimer5thCode\9\str_assignOps.cpp" />
+    <ClCompile Include="CppPrimer5thCode\9\substr.cpp" />
+    <ClCompile Include="CppPrimer5thCode\9\useConvs.cpp" />
+    <ClCompile Include="CppPrimerSource.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
